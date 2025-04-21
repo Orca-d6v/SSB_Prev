@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./style.css";
+import "./ssbstyle.css";
 import sol from "../../sol.png";
 import Testimonials from "../Testimonials/Testimonials";
 import Ribbon from "../Ribon/Ribon";
@@ -147,7 +147,7 @@ const SsbCoaching = ({ setenroll, setSSB }) => {
 
       <div className="nda-details-box">
         <div className="ssbbox-1">
-          <p className="b1-p">SSB - Transforming Potential Into Selection</p>
+          {/* <p className="b1-p">SSB - Transforming Potential Into Selection</p> */}
           <p className="b1-p-normal" style={{ textAlign: "justify" }}>
           Choosing the right guidance for SSB preparation can make all the difference, and SSB Bullseye stands out as a top choice for aspirants aiming to join the armed forces as Officers. With a team of experienced ex-SSB assessors and a personalized mentorship approach, SSB Bullseye focuses not just on cracking the assessment tests but on truly transforming candidates to embody the Officer-Like Qualities (OLQs) essential for selection. Our unique blend of psychological training, personality development, and real-time feedback ensures that every aspirant is well-equipped to face the SSB with utmost confidence.
 
@@ -156,8 +156,10 @@ const SsbCoaching = ({ setenroll, setSSB }) => {
           <p className="b1-p">
           Our 12 days structured program has been carefully  designed &  crafted to include :
           </p>
-
+          <div>
           <Feature />
+          </div>
+          
 
           <p className="b1-p-normal" style={{ textAlign: "justify" }}>Our 12-day SSB training program would also include a special session on Personality Development aimed at enhancing self-confidence, improving communication skills, fostering a positive mindset, and refining overall behavior to align with Officer-Like Qualities (OLQs). This session will help candidates present their true personality effectively during  the various  assessment tests at the SSB.</p>
           
@@ -165,31 +167,6 @@ const SsbCoaching = ({ setenroll, setSSB }) => {
         
       </div>
 
-      {/* <div className="box-3">
-      <div className="top-btns">
-        <div 
-          onClick={() => setActiveTab('subjects')}
-          style={{ backgroundColor: activeTab === 'subjects' ? '#1a4a1a' : '#2B5B1F' }}
-        >
-          Subject covered
-        </div>
-        <div 
-          onClick={() => setActiveTab('whoCanApply')}
-          style={{ backgroundColor: activeTab === 'whoCanApply' ? '#1a4a1a' : '#2B5B1F' }}
-        >
-          Who can Apply?
-        </div>
-        <div 
-          onClick={() => setActiveTab('whyNDA')}
-          style={{ backgroundColor: activeTab === 'whyNDA' ? '#1a4a1a' : '#2B5B1F' }}
-        >
-          Why NDA?
-        </div>
-      </div>
-      <div>
-        {tabContent[activeTab]}
-      </div>
-    </div> */}
 
       <div style={{ marginVertical: "20px", display: "flex", marginLeft: "40px",  marginRight:"40px"}} className="box-4">
         <p className="b1-p-normal">
