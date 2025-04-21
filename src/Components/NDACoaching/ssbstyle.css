@@ -4,7 +4,9 @@
   padding-top: 80px;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
+
 
 .background-img {
   position: absolute;
@@ -208,3 +210,5 @@
     margin-left: 20px;
   }
 }
+
+

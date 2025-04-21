@@ -263,6 +263,7 @@ function Navbar({ setenroll, enroll, setnda, nda ,ssb,setSSB}) {
           onClick={() => {
             setnda(false);
             setenroll(false);
+            setSSB(false);
             handleScrollTo("home");
             SetActive("Home");
           }}
@@ -282,6 +283,7 @@ function Navbar({ setenroll, enroll, setnda, nda ,ssb,setSSB}) {
           onClick={() => {
             setnda(false);
             setenroll(false);
+            setSSB(false);
             handleScrollTo("about");
             SetActive("About us");
           }}
@@ -317,6 +319,7 @@ function Navbar({ setenroll, enroll, setnda, nda ,ssb,setSSB}) {
                 onClick={() => {
                   setenroll(true);
                   setnda(false);
+                  setSSB(true);
                   handleScrollTo("enroll");
                   SetActive("Registration");
                   setIsRegOpen(false);
@@ -329,6 +332,7 @@ function Navbar({ setenroll, enroll, setnda, nda ,ssb,setSSB}) {
                 onClick={() => {
                   setenroll(true);
                   setnda(true);
+                  setSSB(false);
                   SetActive("Registration");
                   setIsRegOpen(false);
                 }}
