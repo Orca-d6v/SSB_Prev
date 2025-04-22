@@ -15,6 +15,7 @@ import AssignmentIcon from '@mui/icons-material/Assignment';
 import ChatIcon from '@mui/icons-material/Chat';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import VerifiedIcon from '@mui/icons-material/Verified';
+import LoopIcon from '@mui/icons-material/Loop';
 
 
 const imagesArray = [im12, im10, im13];
@@ -70,7 +71,7 @@ function Aboutceo() {
           </div>
           <div className="about-feature-item">
             <WorkspacePremiumIcon className="about-icon" fontSize="large"/>
-            <span>Expert Faculty & Training</span>
+            <span>Expert Faculty & Mentorship</span>
           </div>
           <div className="about-feature-item">
             <AssignmentIcon className="about-icon" fontSize="large"/>
@@ -81,8 +82,11 @@ function Aboutceo() {
             <span>Personalised Feedback</span>
           </div>
           <div className="about-feature-item">
-            <MenuBookIcon className="about-icon" fontSize="large"/>
-            <span>Comprehensive Study Material</span>
+            {/* <MenuBookIcon className="about-icon" fontSize="large"/>
+            <span>Comprehensive Study Material</span> */}
+            <LoopIcon className="about-icon" fontSize="large"/>
+            <span>Regular Progress Tracking</span>
+
           </div>
           <div className="about-feature-item">
             <VerifiedIcon className="about-icon" fontSize="large"/>
