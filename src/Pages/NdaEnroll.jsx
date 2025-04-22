@@ -80,6 +80,7 @@ function NdaEnroll() {
   const[appliedfor,setAppliedfor] = useState("")
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [address,setAddress] = useState("")
+  const [courseChoice,setCourseChoice] = useState("3 months")
 
   const closeModal = () => {
     setIsModalOpen(false);
@@ -330,7 +331,24 @@ function NdaEnroll() {
               required
             />
           </div>
-          
+          <div class="form-group">
+            <label>
+              Courses<small>*</small>
+            </label>
+            <select
+              name="courses"
+              id="courses"
+              class="form-control"
+              value={courseChoice}
+              onChange={(e) => {
+                setCourseChoice(e.target.value);
+              }}
+              required
+            >
+              <option value="3 Months">3 Months</option>
+              <option value="6 Months">6 Months</option>
+            </select>{" "}
+          </div>
           <div class="form-group">
             <label>
               Total Amount to be Paid <small>*</small>
@@ -340,7 +358,7 @@ function NdaEnroll() {
               id="amount"
               class="form-control"
               type="text"
-              placeholder="9000"
+              placeholder={courseChoice === "3 Months"?"12000":"20000"}
               readonly=""
             />
           </div>

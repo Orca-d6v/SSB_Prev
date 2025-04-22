@@ -190,7 +190,7 @@ function Navbar({ setenroll, enroll, setnda, nda ,ssb,setSSB}) {
       SetActive("Courses");
       setenroll(false);
       setnda(false);
-      setSSB(true);
+      setSSB(false);
     } else if (value === "nda") {
       setnda(true);
       setenroll(false);
@@ -319,8 +319,7 @@ function Navbar({ setenroll, enroll, setnda, nda ,ssb,setSSB}) {
                 onClick={() => {
                   setenroll(true);
                   setnda(false);
-                  setSSB(true);
-                  handleScrollTo("enroll");
+                  setSSB(false);
                   SetActive("Registration");
                   setIsRegOpen(false);
                 }}
@@ -552,6 +551,7 @@ function Navbar({ setenroll, enroll, setnda, nda ,ssb,setSSB}) {
           onClick={() => {
             setenroll(true);
             setnda(false);
+            setSSB(false);
             handleScrollTo("enroll");
             SetActive("Registration");
           }}
@@ -568,6 +568,7 @@ function Navbar({ setenroll, enroll, setnda, nda ,ssb,setSSB}) {
           onClick={() => {
             setenroll(true);
             setnda(true);
+            setSSB(false);
             handleScrollTo("enroll");
             SetActive("Registration");
           }}

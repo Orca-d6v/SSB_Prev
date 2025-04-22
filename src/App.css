@@ -162,12 +162,13 @@ text-align: center;
   font-weight: bold;
   font-size: large;
 }
-.Enroll-heading::after{
+/* 22 April commented*/
+/* .Enroll-heading::after{
   content: "[No registration Fee]";
   animation: blinker 1s linear infinite;
     color: #93120d;
     font-size: 20px;
-}
+} */
 @keyframes blinker {
   50%{
     opacity: 0;

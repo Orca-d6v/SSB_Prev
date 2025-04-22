@@ -144,7 +144,8 @@ const NdaCoaching = ({ setenroll, setnda }) => {
 
       <div className="nda-details-box">
         <div className="box-1">
-          <p className="b1-p">Why Choose Us for NDA Written Exam Coaching?</p>
+          {/* Removed on 22 April */}
+          {/* <p className="b1-p">Why Choose Us for NDA Written Exam Coaching?</p> */}
           <p className="b1-p-normal">
             At <span className="bold-text">SSB Bullseye</span>, we specialize in
             preparing aspirants for the
