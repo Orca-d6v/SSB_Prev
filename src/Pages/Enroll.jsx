@@ -88,7 +88,7 @@ function Enroll() {
   const [force, setForce] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
   /* Payment status change based on options */
-  const [paymentSSb,setPaymentSSb] = useState("10000");
+  const [paymentSSb,setPaymentSSb] = useState("Null");
 
   const closeModal = () => {
     setIsModalOpen(false);
@@ -433,9 +433,9 @@ function Enroll() {
               onChange={(e) => {
                 setRegistration(e.target.value);
                 if(e.target.value == "One on One")
-                setPaymentSSb("15000")
+                setPaymentSSb("18000")
                 else
-                setPaymentSSb("10000")
+                setPaymentSSb("12000")
               }}
               required
             >

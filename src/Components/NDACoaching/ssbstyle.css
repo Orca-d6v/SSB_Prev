@@ -58,6 +58,27 @@
   cursor: pointer;
 }
 
+.box-4{
+  display: flex;
+  justify-content: center;
+}
+.enrollbtn-bottom {
+  width: 150px;
+  height: 40px;
+  font-family: Hind Vadodara;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0 20px;
+  background-color: #2B5B1F;
+  border: 2px solid #FFFFFF;
+  color: #ffd329;
+  cursor: pointer;
+}
+
 .nda-details-box {
   position: relative;
   display: flex;
@@ -117,6 +138,19 @@
     border: 3px solid #FFFFFF;
   }
 
+  .box-4{
+    display: flex;
+    justify-content: center;
+  }
+  .enrollbtn-bottom {
+    width: 351px;
+    height: 75px;
+    font-size: 36px;
+    border-radius: 10px;
+    margin-left: 80px;
+    border: 3px solid #FFFFFF;
+  }
+
   .nda-details-box {
     flex-direction: row;
     justify-content: space-between;
@@ -158,6 +192,15 @@
     height: 60px;
     font-size: 24px;
   }
+  .box-4{
+    display: flex;
+    justify-content: center;
+  }
+  .enrollbtn-bottom {
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+  }
 
   .b1-p {
     font-size: 24px;
@@ -180,6 +223,15 @@
     height: 35px;
     font-size: 14px;
     margin-left: 15px;
+  }
+  .box-4{
+    display: flex;
+    justify-content: center;
+  }
+  .enrollbtn-bottom {
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
   }
 
   .nda-details-box {

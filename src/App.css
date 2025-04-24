@@ -163,12 +163,13 @@ text-align: center;
   font-size: large;
 }
 /* 22 April commented*/
-/* .Enroll-heading::after{
-  content: "[No registration Fee]";
+/* 24 April Uncommented */
+.Enroll-heading::after{
+  content: "[Rs 2000 registration Fee]";
   animation: blinker 1s linear infinite;
     color: #93120d;
     font-size: 20px;
-} */
+}
 @keyframes blinker {
   50%{
     opacity: 0;

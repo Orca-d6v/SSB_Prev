@@ -168,14 +168,9 @@ const SsbCoaching = ({ setenroll, setSSB }) => {
       </div>
 
 
-      <div style={{ marginVertical: "20px", display: "flex", marginLeft: "40px",  marginRight:"40px"}} className="box-4">
-        <p className="b1-p-normal">
-          Click on Registration. Select SSB& NA Written Exams, Enroll Today &
-          Start Your Journey Towards NDA! Don't miss this opportunity to join
-          India’s best NDA coaching institute.
-        </p>
+      <div className="box-4">
         <div
-          className="enrollbtn"
+          className="enrollbtn-bottom"
           onClick={() => {
             setenroll(true);
             setSSB(false);

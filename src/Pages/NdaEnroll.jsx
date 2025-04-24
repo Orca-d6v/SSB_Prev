@@ -11,6 +11,7 @@ import uppic from "../uppic.jpg"
 
 import emailjs from 'emailjs-com'
 
+
 // Modal component
 const BackDetailsModal = ({ isOpen, closeModal }) => {
   return (
@@ -345,6 +346,9 @@ function NdaEnroll() {
                 setCourseChoice(e.target.value);
                 if(e.target.value === "3 Months"){
                   setPaymentNda("12000")
+                }else if (e.target.value === "Inaugration"){
+                  setPaymentNda("9000")
+
                 }else{
                   setPaymentNda("20000")
                 }
@@ -353,8 +357,10 @@ function NdaEnroll() {
             >
               <option value="3 Months">3 Months</option>
               <option value="6 Months">6 Months</option>
+              <option value="Inaugration">Discounted Inaugration Batch</option>
             </select>{" "}
           </div>
+
           <div class="form-group">
             <label>
               Total Amount to be Paid <small>*</small>

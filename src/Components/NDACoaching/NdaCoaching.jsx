@@ -231,9 +231,10 @@ const NdaCoaching = ({ setenroll, setnda }) => {
           <br />
           <span className="bold-text-white">
             Join Our 3-Month ONLINE NDA Exam Coaching Program
-          </span>
-          <span className="bold-text-white">Starting From: 10th May 2025</span>
-
+            <br />
+        
+          <span className="bold-text-white" style={{fontSize:"medium"}}>(For NDA 1 Exam Scheduled to be conducted in April 2026)</span>
+          </span> 
           <br />
           <span className="bold-text-white">
             Get the Best Training to Crack NDA Written Exam – Now Online!
@@ -281,11 +282,6 @@ const NdaCoaching = ({ setenroll, setnda }) => {
     </div>
 
       <div style={{ marginVertical: "20px", display: "flex", marginLeft: "40px",  marginRight:"40px"}} className="box-4">
-        <p className="b1-p-normal">
-          Click on Registration. Select NDA& NA Written Exams, Enroll Today &
-          Start Your Journey Towards NDA! Don't miss this opportunity to join
-          India’s best NDA coaching institute.
-        </p>
         <div
           className="enrollbtn"
           onClick={() => {

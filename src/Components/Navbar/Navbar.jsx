@@ -190,7 +190,7 @@ function Navbar({ setenroll, enroll, setnda, nda ,ssb,setSSB}) {
       SetActive("Courses");
       setenroll(false);
       setnda(false);
-      setSSB(false);
+      setSSB(true);
     } else if (value === "nda") {
       setnda(true);
       setenroll(false);
