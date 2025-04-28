@@ -28,7 +28,7 @@ function Container() {
       <Navbar enroll={enroll} nda={nda} setenroll={setenroll} setnda={setnda} ssb={ssb} setSSB={setSSB}/>
       {enroll && !nda  && !ssb && <Enroll />}
       {enroll && nda  && !ssb && <NdaEnroll />}
-      {nda && !enroll && !ssb && <NdaCoaching  setenroll={setenroll} setnda={setnda} />}
+      {nda && !enroll && !ssb && <NdaCoaching  setenroll={setenroll} setnda={setnda} setssb={setSSB} />}
       {!nda && !enroll && ssb && <SsbCoaching setenroll={setenroll} setSSB={setSSB}/>}
       {!enroll && !nda && !ssb && (
         <>

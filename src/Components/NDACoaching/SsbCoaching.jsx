@@ -154,7 +154,7 @@ const SsbCoaching = ({ setenroll, setSSB }) => {
           </p>
 
           <p className="b1-p">
-          Our 12 days structured program has been carefully  designed &  crafted to include :
+          Our 12 days<b> ONLINE </b>structured program has been carefully  designed &  crafted to include :
           </p>
           <div>
           <Feature />

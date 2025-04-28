@@ -53,7 +53,7 @@ function Aboutceo() {
         <div className="about-left">
           <div className="about-left-header">About Us</div>
           <div className="about-left-content">
-            SSB Bullseye is your ultimate destination for <b>online</b>SSB interview coaching
+            SSB Bullseye is your ultimate destination for <b>online</b> SSB interview coaching
             and NDA written exam preparation. With expert mentors, proven
             strategies, and personalized feedback, we ensure comprehensive
             training tailored to enhance your cognitive, leadership, and

@@ -3,7 +3,7 @@ import "./style.css";
 import sol from "../../sol.png";
 import Testimonials from "../Testimonials/Testimonials";
 import Ribbon from "../Ribon/Ribon";
-const NdaCoaching = ({ setenroll, setnda }) => {
+const NdaCoaching = ({ setenroll, setnda,setssb }) => {
   const smoothScrollTo = (id, callback) => {
     performScrollTo(id, callback);
   };
@@ -226,7 +226,7 @@ const NdaCoaching = ({ setenroll, setnda }) => {
         <div className="box-2">
           <u className="cour-det">COURSE DETAILS</u>
           <span className="bold-text-white">
-            FIRST ONLINE NDA BATCH STARTING ON 10th May 2025
+            FIRST ONLINE NDA BATCH STARTING ON 1st November 2025
           </span>
           <br />
           <span className="bold-text-white">
@@ -250,7 +250,7 @@ const NdaCoaching = ({ setenroll, setnda }) => {
             <span> 9000/- Only</span>
           </>
         }>
-            <div className="enquireyBtn"  onClick={()=>{ setnda(false) && handleScrollTo('contact');}}>Enquiry Now</div>
+            <div className="enquireyBtn"  onClick={()=>{ setnda(false); setssb(false) ;setenroll(false); handleScrollTo('contact');}}>Enquire Now</div>
           </Ribbon>
         </div>
       </div>
