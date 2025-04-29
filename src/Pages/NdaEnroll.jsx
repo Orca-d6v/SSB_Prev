@@ -346,7 +346,7 @@ function NdaEnroll() {
                 setCourseChoice(e.target.value);
                 if(e.target.value === "3 Months"){
                   setPaymentNda("12000")
-                }else if (e.target.value === "Inaugration"){
+                }else if (e.target.value === "Inauguration"){
                   setPaymentNda("9000")
 
                 }else{
@@ -357,7 +357,7 @@ function NdaEnroll() {
             >
               <option value="3 Months">3 Months</option>
               <option value="6 Months">6 Months</option>
-              <option value="Inaugration">Discounted Inaugration Batch</option>
+              <option value="Inauguration">Discounted Inauguration Batch</option>
             </select>{" "}
           </div>
 
